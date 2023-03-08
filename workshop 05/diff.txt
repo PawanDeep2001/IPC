@@ -1,0 +1,14 @@
+In line number 128 of your output:
+The output should be:
+Next Move [1-20]: 20
+                  ^
+But your output is: 
+Next Move [1-20]: 8
+                  ^
+
+Unmatched character details:
+The character in column 19 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [8] ASCII code(56)
+

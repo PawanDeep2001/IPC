@@ -1,0 +1,24 @@
+1)the output that has to match exactly to the output that is actually needed
+it is furstrating, because that makes even spaces and new lines very relevant,
+no doubt it is very important the spacing and all for getting a aligned and 
+tidy output.
+obviously it is long to continue and input all the answers again and again
+but in the end we can say it is quite cool to have a correct output. 
+but in my opinion in a certain way this might not be really good because if 
+someone faces just one error he can not submit it that's why we even cannot 
+score intermediate marks, only 0 or 100 is annying because we made so much 
+effort just to not submit it.
+2)naming libraries with a good name is right because libraries or modules
+has to be named like the content that that library or module has.
+modules for example we need to name those modules in a good way because 
+when we need to call those modules we need to remember those and address those
+names direcly with the module for example in a struct we need to remember 
+the name of thatstruct directly.
+3) in this assignments we made some menus that open other manus, and we have 
+a 0 to come back, the menu makes the user have many choices and do exactly 
+what the user wants, and he has the possibility to leave the application.
+the advantages of the cascading menu is that the user can choose wisely 
+what he needs to open this application that we made could be easily be used by
+the bank workers to access to the customers accounts and to modify or remove
+accounts from their servers that in our case was the array containing maximum
+50 accounts that obviously we can increase by just changing the max size

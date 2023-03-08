@@ -1,0 +1,19 @@
+1)
+My favourite string function from the string library is strcpy, because strcpy helps really very much to copy a string value of a variable to an other string 
+variable. This actually have been useful, because in some occasions it was not possible to copy the values with an uqual. For example when I used in my code the strcpy 
+function to copy the name of the customer for the creation of a new ticket. Whenever I was trying to copy the value to an other variable with the equal it was 
+prompting some errors, so it was much better using the strcpy. When I copied the name of the agent it was initially difficult because I didn't know where to take the 
+agent name then I realized that I had an unmodifiable array of account that contained the information related to the Agent that logged in.
+
+2)
+I created the function prototype void getTicket(struct Ticket* ticket); for adding a new ticket, some values that had to be automatically added I added them directly 
+in the agent's menu and the other ones in which the user had to write the input for example the message and the subject I typed those in the getTicket function. I
+added the function prototype to the ticket.h header file and its function definition to the ticket.c source file, the main reason to add it to ticket.c was that it was a 
+new ticket so it was much easier to remember whenever I had to modify anything in it and in the header file I already had the Ticket structure.
+An other function that I created was void activate(struct Ticket* ticket); essentially for making the activity status from 0 to 1, that means from CLOSED to ACTIVE
+I added the function prototype to the ticket.h header file and its function definition to ticket.c source file, the reason was the same as getTicket function, so
+it was easier to find because it was related to the ticket status and it also contained the Ticket structure.
+The last function that I created was void close(struct Ticket* ticket); essentially for making the activity status from 1 to 0, that means from ACTIVE to CLOSED
+I added the function prototype to the ticket.h header file and its function definition to ticket.c source file, the reason was the same as getTicket and activate 
+function, so it was easier for me to find because the activity is related to the ticket and it also contained the Ticket structure.
+

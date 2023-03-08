@@ -1,0 +1,39 @@
+/*
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Section:IPC144 NGG
+*/
+1) the function that I found the most difficult was the one char type function, getCharOption, because initially I made a
+program that allows only to input any of qwerty letters and when I've started doing the milestone 2 I had to change it and
+make it different because in stead of qwerty this time was AC, to do this function first of all with a pointer I took the
+values that were the possible characters that the user could insert, then make an empty loop that was quite tricky because 
+firstly I didn't know how to count how many character are present in the pointer word, the empty loop was I think the best 
+way to count those words, the scan and error part was pretty simple because it was similar to the other functions, testing 
+and debugging made it much easier to find mistakes.
+empty loop:
+for ( j = 0; possiblechar[j] != '\0'; j++)
+    {
+        ;
+    }
+2) the helper functions are really useful specially when we need to call the same function multiple times, and it makes the
+main function more tidy, because if we have any kind of mistake we can go in the function that we called to correct the mistake
+we just need to include in the library the file where these functions are, in our example we needed to #include 
+"commonHelpers.h" and "account.h".
+libraries that I used:
+#include <stdio.h> 
+#include "account.h"                               
+#include "commonHelpers.h"    
+
+3) the struct data type is very useful to store multiple different types of variables, the main advantages are that those 
+variables are stored in the same structure, in the functions specially we can return the struct and every variable data will
+be returned, so I would say that it is difficut to do a program without the struct, but there are some limitations like, 
+we cannot make changes to the structures.
+structure:
+struct Person
+{
+    char fullName[31];
+    int yearOfBirth;
+    double TotIncome;
+    char residenceCountry[31];
+}person;

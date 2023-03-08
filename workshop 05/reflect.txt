@@ -1,0 +1,31 @@
+/*
+	==================================================
+	Workshop #5 (Part-2):
+	==================================================
+	Name   :Pawan Deep
+	ID     :111144218
+	Email  :pdeep1@myseneca.ca
+	Section:IPC144 NGG
+*/
+
+1)
+struct PlayerInfo
+{
+	int lives;
+	char character_symbol;
+	int counter;
+	int history[maximum];
+};
+with structures we can easily store different type of data, like in this example we can store the player information, we can store integer values, characters
+in a single structure.
+in this case we store the number of lives of the player, its symbol, a counter for the trasures found, and the history of the previous moves, that is an array.
+
+2)
+to make this workshop record more than one game we need to create a nested structure the first one will include an array with the player identifier like his name,
+and within the player structure there will be a second structure with PlayerInfo and it has to contain an other array that contains the end-results of the players.
+in the main() we need to create an other loop for the whole process, that will repeat according to the  numbers players, that will be an other input.
+
+3)
+I spent a lot of time figuring out how to diplay this msg """("\n============== = > Dope!You've been here before!\n\n");"""
+then I realized that I just need to do a simple if  comparing (player.history[i]==1 && i + 1 == moves), because player.history has to be 1 but the i+1 has to be 
+equal to the move that the user printed in moves.

@@ -1,0 +1,14 @@
+In line number 101 of your output:
+The output should be:
+Amount:   $54530.90
+           ^
+But your output is: 
+Amount:   $  54530.90
+           ^
+
+Unmatched character details:
+The character in column 12 is supposed to be:
+  [5] ASCII code(53)
+but you printed
+  [Space] ASCII code(32)
+

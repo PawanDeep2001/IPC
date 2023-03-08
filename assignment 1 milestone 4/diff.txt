@@ -1,0 +1,14 @@
+In line number 206 of your output:
+The output should be:
+2) Household Income (current value: $1.99)
+                                     ^
+But your output is: 
+2) Household Income (current value: $ 1.99)
+                                     ^
+
+Unmatched character details:
+The character in column 38 is supposed to be:
+  [1] ASCII code(49)
+but you printed
+  [Space] ASCII code(32)
+

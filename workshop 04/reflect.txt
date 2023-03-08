@@ -1,0 +1,68 @@
+1.
+With for we assign a value to i that will fill the first box of each array when we increase the the value of i we
+will add a value for the second value and it will continue till i= in this case to the items in his wish list.
+
+for (i = 0; i < wish; i++)
+{
+	printf("\nItem-%d Details:\n", i + 1);
+	do
+	{
+		printf("   Item cost: $");
+		scanf("%lf", &value[i]);
+		if (value[i] < min_value)
+		{
+			printf("      ERROR: Cost must be at least $100.00\n");
+		}
+	} while (value[i] < min_value);
+	do
+	{
+		printf("   How important is it to you? [1=must have, 2=important, 3=want]: ");
+		scanf("%d", &priority[i]);
+		if (priority[i] > 3 || priority[i] < 1)
+		{
+			printf("      ERROR: Value must be between 1 and 3\n");
+		}
+	} while (priority[i] > 3 || priority[i] < 1);
+	do
+	{
+		printf("   Does this item have financing options? [y/n]: ");
+		scanf("%s", &answer[i]);
+		if (answer[i] == y)
+		{
+			break;
+		}
+		else if (answer[i] == n)
+		{
+			break;
+		}
+		else
+		{
+			printf("\n      ERROR: Must be a lowercase 'y' or 'n'\n");
+		}
+	} while (answer[i] != 'y' || answer[i] != 'n');
+}
+
+2.
+We initalize the iterator variable to 0 because arrays always start with number 0 and it makes
+more practical initializing an iterator to 0; and when we have to start a for we always use i < wish and not anything else.
+
+for (i = 0; i < wish; i++)
+{
+	printf("\nItem-%d Details:\n", i + 1);
+	do
+	{
+		printf("   Item cost: $");
+		scanf("%lf", &value[i]);
+		if (value[i] < min_value)
+		{
+			printf("      ERROR: Cost must be at least $100.00\n");
+		}
+	} while (value[i] < min_value);
+}
+
+3.
+an array is a type of container that has multiple information of the same type.
+like an array for the age of students contains the age of each student.
+an element of an array is an age of 1 student. we can define an age of a certain student for example the third age of an array by 
+writing printf("%d",age[2]) we write 2 instead of 3 because the array always starts with position 0.
+
